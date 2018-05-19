@@ -1,0 +1,33 @@
+<h3 style="color:white">Bitácora</h3>
+<table style="text-align: center;">
+  <tr>
+    <th style="background-color: black;
+    color: white; padding: 10px;border: 1px solid black; 
+    border-collapse: collapse; text-align: center;">Total</th>
+    <th style="background-color: black;
+    color: white; padding: 10px;border: 1px solid black; 
+    border-collapse: collapse; text-align: center;">Títulos</th>
+    <th style="background-color: black;
+    color: white; padding: 10px;border: 1px solid black; 
+    border-collapse: collapse; text-align: center;">Links</th>
+    <th style="background-color: black;
+    color: white; padding: 10px;border: 1px solid black; 
+    border-collapse: collapse; text-align: center;">Autores</th>
+    <th style="background-color: black;
+    color: white; padding: 10px;border: 1px solid black; 
+    border-collapse: collapse; text-align: center;">Tema</th>
+  </tr>
+
+{{#each lb}}
+		
+    <tr>
+        <td style="padding: 10px;border: 1px solid black" "border-collapse: collapse">{{this.total}}</td>
+        <td style="padding: 10px;border: 1px solid black" "border-collapse: collapse">{{this.titles}}</td>
+        <td style="padding: 10px;border: 1px solid black" "border-collapse: collapse">{{this.links}}</td>
+        <td style="padding: 10px;border: 1px solid black" "border-collapse: collapse">{{this.authors}}</td>
+        <td style="padding: 10px;border: 1px solid black" "border-collapse: collapse">{{this.topic}}</td>
+    </tr>	
+    
+{{/each}}
+	</table>
+

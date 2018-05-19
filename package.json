@@ -1,0 +1,34 @@
+{
+  "name": "login",
+  "version": "1.0.0",
+  "description": "sistema de autenticacion",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "serve": "nodemon app.js"
+  },
+  "author": "pipe",
+  "license": "ISC",
+  "dependencies": {
+    "arxiv": "0.0.4",
+    "body-parser": "*",
+    "compression": "^1.7.0",
+    "connect-flash": "*",
+    "cookie-parser": "^1.4.1",
+    "express": "*",
+    "express-handlebars": "*",
+    "express-messages": "*",
+    "express-session": "*",
+    "express-validator": "*",
+    "handlebars": "^4.0.11",
+    "mongodb": "*",
+    "mongoose": "*",
+    "multer": "^1.3.0",
+    "node-cache": "^4.1.1",
+    "passport": "*",
+    "passport-google-oauth": "^1.0.0",
+    "passport-http": "*",
+    "passport-local": "*"
+  }
+}
